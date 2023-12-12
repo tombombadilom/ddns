@@ -1,4 +1,4 @@
-version: '2'
+version: '3.9'
 
 services:
   ddns:
@@ -25,4 +25,4 @@ services:
 
   redis:
     restart: unless-stopped
-    image: redis:4-alpine
+    image: amd64/redis:latest

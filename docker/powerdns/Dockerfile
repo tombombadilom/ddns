@@ -1,4 +1,4 @@
-FROM buildpack-deps:bookworn-scm
+FROM buildpack-deps:bookworm-scm
 
 # the setup procedure according to https://repo.powerdns.com/ (Debian 9 Stretch)
 RUN echo "deb [arch=amd64] http://repo.powerdns.com/debian bookworm-auth-43 main" > /etc/apt/sources.list.d/pdns.list \
